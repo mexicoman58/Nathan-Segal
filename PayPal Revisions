@@ -1,0 +1,63 @@
+How to Add a PayPal Button to Your Page
+If you have ever wanted to sell anything online you will have wrestled with the issue of how to do it. There are many tools available such as shopping carts and payment processors of various kinds. If you’re new to the process of accepting payments online, one of the easiest ways to do it is by making use of a third-party service such as PayPal. 
+All that’s necessary is to set up a PayPal account, connect it with your bank and you’re good to go. When you set up payments you can choose to use settings which come within PayPal or to add a custom payment button. You will also need a website for placing the buttons. You could do that on a site of your own design or make use of a variety of CMS’s (content management systems). In this tutorial, we use WordPress. Here's how it works. 
+ 
+The first step is to log into PayPal and when you do so, you will see several tabs on the top-left portion of the site. You will use these to navigate to the section where you can create PayPal buttons. 
+ 
+Getting there is a bit convoluted, though. The first step is to click on the More tab and select Sitemap from the drop down. 
+ 
+This brings up the Sitemap page. Under the Tools heading, click on Create PayPal button. 
+ 
+This brings up the My Saved Buttons Page. As you can see, I’ve created many buttons in the past. Here, you can create new buttons, edit old ones, manage checkout page styles, look at recurring payments and more. To keep things simple, you will learn how to create a new button and add it to you a WordPress post or page and you will also learn how to create and use a custom button, independent of PayPal. Many marketers do that for reasons of styling, branding or testing new buttons that could convert better. 
+To get started, click on Create a New Button link under the Related Items section.
+ 
+This brings up the Create PayPal payment button page. As you can see, there are many settings here. We will look at each one in turn. 
+ 
+The first one is the button type. As you can see in the drop-down menu, there are six options. Shopping cart, Buy Now, Donations, Subscriptions, Automatic Billing, and Installment Plan. If you are selling a single product or service, the Shopping Cart or Buy Now buttons will do the trick. If you want donations, the Donations button would be the right one to use. If you sell memberships or subscriptions to your product or service, the Subscriptions or Automatic Billing buttons would be a good bet. The Installment Plan option is something you might want to use if you offer clients the ability to pay a fee over a few months, rather than all at once. 
+To give you an idea of what these buttons look like, click on the Which button should I use? heading at the top-right.
+ 
+Above are your options. 
+Directly below the button type options is where you set a name for your item and an ID number or name for tracking. Below that, you set the price and currency. If you need to make use of multiple currencies, you would click on the Customize link in the Customize button section. 
+ 
+Once you have filled out the above settings, it’s time to look at the Customize button section, as above. We will look at the options in turn and a preview will be displayed on the right, what you would see on your website. 
+ 
+Here are the options when the first check box is enabled and how the button will be displayed as seen in the preview on the right.
+ 
+Here are your options when the second drop-down checkbox is enabled and how the button will be displayed as seen in the preview on the right.
+
+ 
+And here are the options available when the third checkbox is enabled and how the button will be displayed as seen in the preview on the right. As you can see, PayPal gives you a lot of control. 
+When you’re done with the Customize Button section, you set the shipping amount (if any), the tax (if any) and then you can choose to use either your merchant ID or your primary email address on the account. If you choose secure merchant account ID, PayPal links you merchant account to your primary email address, making it invisible to spammers. 
+ 
+Now, it’s time to move to Step 2, Track Inventory, Profit and loss (optional). If you are in the business of selling a lot of inventory, this step could be beneficial. Normally, the checkboxes are not selected here. Briefly, we will select each one and look at the options. The first checkbox enables you to save your button at PayPal and protect from fraudulent charges. You also have two other options in this section, Track Inventory and Track Profits and Losses. 
+ 
+As you can see, you can track inventory by item and if an item is sold out, customers can buy it or not. When shoppers click on the Continue Shopping button on the “item sold out” page, you can direct them to a web page of your choice. If you enable the Track profit and losses checkbox, you can add the price into the By item section (which is currently grayed out). 
+ 
+Once you’ve completed this section, it’s time to move to Step 3, Customize Advanced Features (optional). In general, I go with the defaults on this page. The only settings I change are Take customers to this URL when they cancel their checkout and Take customers to this URL when they finish their checkout. Of these two, the second is most important. In this case, you would probably want to send them to the checkout or download page for your product or service. 
+ 
+Also, in this section, you will need to click on the Create Button icon at the bottom of the page. This will create the code for your button and display it on another page. You will need this for your website. 
+ 
+On the page above is the code for your website. Note the two tabs above the highlighted code. If you click on the Website tab, you will see the Buyer’s view preview on the right. This is what you will see on your website. 
+ 
+If you choose the Email option, the view changes dramatically. You can email this link to someone to buy your product/service OR, you can use this with a custom button on your site. Here’s how both options work. 
+  
+Here, we use the Add New Post option. When you add the code, you MUST select the Text option, first. If you put the code into the visual section, it will break the code. 
+ 
+To preview the result, click on the Visual tab. Add any text you wish, such as price and terms and publish your post. 
+ 
+If you’re one of those people who doesn’t like the PayPal buttons, you can create your own using a CSS3 button generation program like the one above. Once you have the button, you want to take the final image, load it into your CMS and use it in combination with your PayPal code. Here’s how it works with the Belcher Button. 
+ 
+First off, you need to load the button into WordPress. In the dashboard, click on the Media tab and click on Add New. In the loading section, drag and drop to add the image or click on the Select Files button to upload the image. 
+ 
+In the attachment details section, you need to grab the URL, which is the location in WordPress where the file has loaded, you will need that for the next step, which is to make the image clickable. The idea is when you click on it, it will take you to the payment page on PayPal. 
+While you can set up the code using WordPress, I find it cumbersome and prefer to use Adobe Dreamweaver, instead. Here’s what the code looks like to make the button clickable.
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=YKLG8XTLNBMAN"><img src="http://nathansegal.org/wp-content/uploads/2017/06/belcherbutton-475x228.jpg" border="0" /></a>
+ 
+Next, you paste the code under the Text tab in your WordPress Layout. To make sure it displays correctly, check the Visual tab. As a final step, publish the post, view the result, then click on the add to cart image. This should take you to the PayPal order page. 
+That’s it. 
+
+
+
+
+
+
